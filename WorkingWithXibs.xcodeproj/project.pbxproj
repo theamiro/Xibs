@@ -12,6 +12,8 @@
 		02BFE73522CA139C006797C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BFE73322CA139C006797C7 /* Main.storyboard */; };
 		02BFE73722CA13A2006797C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BFE73622CA13A2006797C7 /* Assets.xcassets */; };
 		02BFE73A22CA13A2006797C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BFE73822CA13A2006797C7 /* LaunchScreen.storyboard */; };
+		02BFE74422CA1FFF006797C7 /* NotificationBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BFE74322CA1FFF006797C7 /* NotificationBubble.xib */; };
+		02F0239122CC9310002F11A1 /* NotificationBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0239022CC9310002F11A1 /* NotificationBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		02BFE73622CA13A2006797C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02BFE73922CA13A2006797C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02BFE73B22CA13A2006797C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BFE74322CA1FFF006797C7 /* NotificationBubble.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationBubble.xib; sourceTree = "<group>"; };
+		02F0239022CC9310002F11A1 /* NotificationBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				02BFE72F22CA139C006797C7 /* AppDelegate.swift */,
+				02F0239022CC9310002F11A1 /* NotificationBubble.swift */,
 				02BFE73122CA139C006797C7 /* ViewController.swift */,
 				02BFE73322CA139C006797C7 /* Main.storyboard */,
+				02BFE74322CA1FFF006797C7 /* NotificationBubble.xib */,
 				02BFE73622CA13A2006797C7 /* Assets.xcassets */,
 				02BFE73822CA13A2006797C7 /* LaunchScreen.storyboard */,
 				02BFE73B22CA13A2006797C7 /* Info.plist */,
@@ -124,6 +130,7 @@
 			files = (
 				02BFE73A22CA13A2006797C7 /* LaunchScreen.storyboard in Resources */,
 				02BFE73722CA13A2006797C7 /* Assets.xcassets in Resources */,
+				02BFE74422CA1FFF006797C7 /* NotificationBubble.xib in Resources */,
 				02BFE73522CA139C006797C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F0239122CC9310002F11A1 /* NotificationBubble.swift in Sources */,
 				02BFE73222CA139C006797C7 /* ViewController.swift in Sources */,
 				02BFE73022CA139C006797C7 /* AppDelegate.swift in Sources */,
 			);
